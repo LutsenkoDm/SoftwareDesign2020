@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"/>
+<link href="https://getbootstrap.com/docs/4.0/examples/signin/signin.css" rel="stylesheet"
+      crossorigin="anonymous" />
+<head>
+    <meta charset="UTF-8"/>
+    <title>Registration</title>
+</head>
+<body>
+<div class="container">
+        <form id="regForm" class="form-signin" onsubmit="myregister()">
+            <h2 class="form-signin-heading">Registration</h2>
+            <input id="username" name="username" type="text" class="form-control mr-sm-2" placeholder="username" aria-label="username" required>
+            <input id="password" name="password" type="password" class="form-control mr-sm-2" placeholder="password" aria-label="password" required>
+            <input id="submit" name="submit" type="submit" class="btn btn-lg btn-primary btn-block" aria-label="submit" value="Register">
+            <a class="btn btn-lg btn-secondary btn-block" href="/login">Go to login</a>
+        </form>
+</div>
+
+<script type="text/javascript" th:src="@{/js/registration.js}"></script>
+</body>
+</html>
