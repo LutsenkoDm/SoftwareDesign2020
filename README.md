@@ -7,6 +7,6 @@ To run:
 http://localhost:8080/journal will open
 5)That`s all.
 
-Also you can run in IDE, just open project and click run button
+Also you can run in IDE, just open project and click run button. Then follow step 4.
 
 
