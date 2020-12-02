@@ -9,4 +9,11 @@ http://localhost:8080/journal will open
 
 Also you can run in IDE, just open project and click run button. Then follow step 4.
 
+Отчет и все описание в файле Konstruirovanie.docx
+
+Made by:
+Василевский А.Н., гр. 3530904/80105
+Луценко Д. Ю.,    гр. 3530904/80106 
+Цыгарова И. Н.,   гр. 3530904/80106
+Шеве Н. М.,       гр. 3530904/80106
 
